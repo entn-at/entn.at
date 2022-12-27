@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>speech recognition - entn.at</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="/theme/images/logo.png" rel="icon">
+
+
+    <meta name="author" content="Ewald Enzinger" />
+    <meta name="keywords" content="speech recognition" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="entn.at" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="entn.at"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:description" content="entn.at"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.cosmo.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="/theme/images/logo.png" width="32"/> entn.at            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/about.html">
+                             About
+                          </a></li>
+                         <li><a href="/research.html">
+                             Research
+                          </a></li>
+                        <li >
+                            <a href="/category/blog.html">Blog</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <article>
+                <h2><a href="/blog/kaldi-recipe-for-mozillas-common-voice-corpus/">Kaldi recipe for Mozilla's Common Voice corpus</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2018-01-10T11:15:00-08:00"> Wed 10 January 2018</time>
+    </span>
+
+
+
+        <span class="label label-default">Category</span>
+        <a href="/category/blog.html">Blog</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tags/speech-recognition.html">speech recognition</a>
+        /
+	<a href="/tags/mozilla.html">mozilla</a>
+        /
+	<a href="/tags/common-voice.html">common voice</a>
+        /
+	<a href="/tags/corpus.html">corpus</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p><strong>Note:</strong> This is about a recipe for the original, English-only Common Voice corpus released in 2018. Subsequent releases with data for various languages are not compatible with this recipe.</p>
+<p>Recently, Mozilla published a first version of their <a href="https://voice.mozilla.org/data">Common Voice corpus</a>. It consists of speech prompts from an unknown number of speakers (no speaker IDs are provided due to privacy concerns, see this <a href="https://discourse.mozilla.org/t/speaker-ids-for-speaker-recognition/22747">forum thread</a>). About 254 hours have been validated by multiple listeners. The data has been split into pre-defined training, development and test sets. </p>
+<p>I created an initial Kaldi recipe for the corpus as a research exercise. 
+It has …</p>
+                    <a class="btn btn-default btn-xs" href="/blog/kaldi-recipe-for-mozillas-common-voice-corpus/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><!--<h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>-->
+              <ul class="list-inline" id="social">
+                <li class="list-group-item"><a href="https://github.com/entn-at"><i class="fa fa-github-square fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://linkedin.com/in/ewald-enzinger"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://twitter.com/entn_at"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://sigmoid.social/@entn_at"><i class="fa"><svg class='mastodon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg></i></a></li>
+              </ul>
+            </li>
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="/blog/kaldi-recipe-for-mozillas-common-voice-corpus/">
+                            Kaldi recipe for Mozilla's Common Voice corpus
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://forensic-evaluation.net/" target="_blank">
+                Forensic evaluation
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Ewald Enzinger
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+    <script src="/theme/js/bodypadding.js"></script>
+
+</body>
+</html>
