@@ -6,7 +6,8 @@ on:
       - gh-pages
     paths:
       - '.github/workflows/pelican.yml'
-      - 'output/**'
+      - 'content/**'
+      - 'pelican-bootstrap3/**'
 
 concurrency:
   group: pelican-${{ github.ref }}
