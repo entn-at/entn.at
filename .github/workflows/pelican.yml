@@ -1,0 +1,45 @@
+name: Pelican build
+on:
+  push:
+    branches:
+      - main
+      - gh-pages
+    paths:
+      - '.github/workflows/pelican.yml'
+      - 'output/**'
+
+concurrency:
+  group: pelican-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pelican:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04]
+        python-version: [3.11]
+    steps:
+      # refer to https://github.com/actions/checkout
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build doc
+        shell: bash
+        run: |
+          python3 -m pip install -r ./requirements.txt
+          make html
+          touch output/.nojekyll
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
