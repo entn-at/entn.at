@@ -1,24 +1,27 @@
-Date: 2019-04-30 12:13
+Date: 2022-12-28 09:10
 Author: Ewald Enzinger
 Title: Research
 
-### Theses
+### Patents
 
-Enzinger, E. (2015). Implementation of forensic voice comparison within the new paradigm for the evaluation of forensic evidence. PhD thesis, School of Electrical Engineering & Telcommunications, University of New South Wales, Sydney, Australia. [pdf](http://handle.unsw.edu.au/1959.4/55772)
+Enzinger, E., & Robson, R. O. (2022). Real-time voice phishing detection. U.S. Patent No. 11,423,926. Filed 11/17/2020. Issued 08/23/2022. [link](https://patents.google.com/patent/US11423926B2/en)
 
-Enzinger, E. (2009). Formant trajectories in forensic speaker recognition. Mag.phil. thesis, Faculty of Philological and Cultural Studies, University of Vienna, Vienna, Austria. [pdf](http://othes.univie.ac.at/8239/)
 
 ### Book chapters
 
-Morrison, G.S., Enzinger, E., Ramos, D., González-Rodríguez, J., Lozano-Díez, A. (2020). Statistical models in forensic voice comparison. In Banks, D.L., Kafadar, K., Kaye, D.H., Tackett, M. (Eds.), Handbook of Forensic Statistics (Ch. 20, pp. 451–497). Boca Raton, FL: CRC. [doi](https://doi.org/10.1201/9780367527709)
+Morrison G.S., Weber P., Enzinger E., Labrador B., Lozano-Díez A., Ramos D., González-Rodríguez J. (2022). Forensic voice comparison: Human-supervised-automatic approach. In Houck M., Wilson L., Lewis S., Eldridge H., Lothridge K., Reedy P. (Eds.), Encyclopedia of Forensic Sciences (3rd Ed.), vol. 2, pp. 720–736. Elsevier. [doi](https://doi.org/10.1016/B978-0-12-823677-2.00182-3) [preprint](pdfs/morrisonetal2022fvchumansupervisedautomatic.pdf)
 
-Morrison, G.S., Enzinger, E. (2019). Introduction to forensic voice comparison. In Katz, W.F., Assmann, P.F. (Eds.) The Routledge Handbook of Phonetics (Ch. 21, pp. 599–634). Abingdon, UK: Taylor & Francis. [doi](https://doi.org/10.4324/9780429056253)
+Morrison, G.S., Enzinger, E., Ramos, D., González-Rodríguez, J., Lozano-Díez, A. (2020). Statistical models in forensic voice comparison. In Banks, D.L., Kafadar, K., Kaye, D.H., Tackett, M. (Eds.), Handbook of Forensic Statistics (Ch. 20, pp. 451–497). Boca Raton, FL: CRC. [doi](https://doi.org/10.1201/9780367527709) [arXiv](https://arxiv.org/abs/1912.13242)
 
-Morrison, G.S., Enzinger, E., Zhang, C. (2018). Forensic speech science. In I. Freckelton, & H. Selby (Eds.), *Expert Evidence* (Ch. 99). Sydney, Australia: Thomson Reuters. [preprint](http://expert-evidence.forensic-voice-comparison.net/)
+Morrison, G.S., Enzinger, E. (2019). Introduction to forensic voice comparison. In Katz, W.F., Assmann, P.F. (Eds.) The Routledge Handbook of Phonetics (Ch. 21, pp. 599–634). Abingdon, UK: Taylor & Francis. [doi](https://doi.org/10.4324/9780429056253) [preprint](https://research.aston.ac.uk/en/publications/introduction-to-forensic-voice-comparison)
+
+Morrison, G.S., Enzinger, E., Zhang, C. (2018). Forensic speech science. In I. Freckelton, & H. Selby (Eds.), *Expert Evidence* (Ch. 99). Sydney, Australia: Thomson Reuters. [preprint](https://forensic-voice-comparison.net/expert-evidence/)
 
 ### Journal articles
 
 Morrison G.S., Basu N., Enzinger E., Weber P. (2022). The opacity myth: A response to Swofford & Champod (2022). Forensic Science International: Synergy, 5, 100275. [doi](https://doi.org/10.1016/j.fsisyn.2022.100275)
+
+Morrison G.S., Ramos D., Ypma R.J.F., Basu N., de Bie K., Enzinger E., Geradts Z., Meuwly D., van der Vloed D., Vergeer P., Weber P. (2022). A strawman with machine learning for a brain: A response to Biedermann (2022) The strange persistence of (source) "identification" claims in forensic literature. (Letter to the Editor). Forensic Science International: Synergy, 4, 100230. [doi](https://doi.org/10.1016/j.fsisyn.2022.100230)
 
 Weber P., Enzinger E., Labrador B., Lozano-Díez A., Ramos D., González-Rodríguez J., Morrison G.S. (2022). Validation of the alpha version of the E3 Forensic Speech Science System (E3FS3) core software tools. Forensic Science International: Synergy, 4, 100223. [doi](https://doi.org/10.1016/j.fsisyn.2022.100223)
 
@@ -34,11 +37,11 @@ Zhang, C., Morrison, G. S., & Enzinger, E. (2016). Use of relevant data, quantit
 
 Morrison, G. S. & Enzinger, E. (2016). Multi-laboratory evaluation of forensic voice comparison systems under conditions reflecting those of a real forensic case (forensic_eval_01) - Introduction. *Speech Communication*, 85, 119&ndash;126. [doi](http://dx.doi.org/10.1016/j.specom.2016.07.006)
 
-Morrison, G. S., Enzinger, E., & Zhang, C. (2016). Refining the relevant population in forensic voice comparison - A response to Hicks et alii (2015) The importance of distinguishing information from evidence/observations when formulating propositions. *Science & Justice*, 56 (6), 492&nbsp;497. [doi](http://dx.doi.org/10.1016/j.scijus.2016.07.002) [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27914557)
+Morrison, G. S., Enzinger, E., & Zhang, C. (2016). Refining the relevant population in forensic voice comparison - A response to Hicks et alii (2015) The importance of distinguishing information from evidence/observations when formulating propositions. *Science & Justice*, 56 (6), 492&nbsp;497. [doi](http://dx.doi.org/10.1016/j.scijus.2016.07.002) [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27914557) [arxiv](https://arxiv.org/abs/1704.07639)
 
 Morrison, G. S. & Enzinger, E. (2016). What should a forensic practitioner's likelihood ratio be? *Science & Justice*, 56 (5), 374&ndash;379. [doi](http://dx.doi.org/10.1016/j.scijus.2016.05.007) [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27702454)
 
-Enzinger, E., Morrison, G. S., & Ochoa, F. (2016). A demonstration of the application of the new paradigm for the evaluation of forensic evidence under conditions reflecting those of a real forensic-voice-comparison case. *Science & Justice*, 56 (1), 42&ndash;57. [doi](http://dx.doi.org/10.1016/j.scijus.2015.06.005) [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26746825)  [audio examples](https://entn.at/demoeval/)
+Enzinger, E., Morrison, G. S., & Ochoa, F. (2016). A demonstration of the application of the new paradigm for the evaluation of forensic evidence under conditions reflecting those of a real forensic-voice-comparison case. *Science & Justice*, 56 (1), 42&ndash;57. [doi](http://dx.doi.org/10.1016/j.scijus.2015.06.005) [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/26746825)
 
 Enzinger, E. & Morrison, G. S. (2015). Mismatched distances from speakers to telephone in a forensic-voice-comparison case. *Speech Communication*, 70, 28&ndash;41. [doi](http://dx.doi.org/10.1016/j.specom.2015.03.001)
 
@@ -93,6 +96,8 @@ Enzinger, E. (2010). Parametric Diphthong Formant Trajectory Representations for
 
 #### Refereed abstract:
 
+Weber P., Enzinger E., Labrador B., Lozano-Díez A., Ramos D., González-Rodríguez J., Morrison G.S. (2022). Validation of the alpha version of the E3 forensic speech science system (E3FS3) core software tools. *European Academy of Forensic Science Conference*, May 30&ndash;June 3, 2022. Stockholm, Sweden. 
+
 Zhang, C., Morrison, G. S., & Enzinger, E. (2017). Forensic voice comparison: Older sister or younger sister?. *26th Conference of the International Association for Forensic Phonetics and Acoustics (IAFPA)*, July 9&ndash;12, 2017, Split, Croatia. [pdf](pdfs/zhangetal2017_iafpa.pdf)
 
 van der Vloed, D., Morrison, G. S., & Enzinger, E. (2016). Evaluation of Batvox under conditions reflecting those of a real forensic voice comparison case (forensic_eval_01). *25th Conference of the International Association for Forensic Phonetics and Acoustics (IAFPA)*, July 24&ndash;27, 2016, York, U.K. [pdf](pdfs/vanderVloedEtAl2016_iafpa.pdf)
@@ -121,6 +126,8 @@ Enzinger, E. (2010). Parametric representations of diphthongal formant trajector
 
 #### Non-refereed:
 
+Baratsits, A., Bauer, C., Enzinger, E. (2022). The Austrian Language Project: T-ALP. *CBA Labs & Conference: Building a European Cultural Backbone*, May 23&ndash;28, Linz, Austria. [video](https://media.ccc.de/v/ecb2022-48920-the-austrian-language-project-t-alp)
+
 Morrison, G. S. & Enzinger, E. (2016). A New Paradigm for Forensic Science and its Implementation in Forensic Voice Comparison. *International Biometric Performance Testing Conference 2016, Technical Colloquium: Quantifying the weight of forensic evidence*, May 5&ndash;6, National Institute of Standards and Technology (NIST), Gaithersburg, MD.
 
 Zhang, C., Enzinger E., Morrison, G. S., & Ochoa, F. (2012). Effects of telephone transmission on the validity of formant-trajectory-based forensic-voice-comparison systems. *UNSW Forensic Speech Science Conference 2012*, December 3, Sydney, Australia. [slides](pdfs/zhang_et_al_2012_unswfssc.pdf)
@@ -148,11 +155,18 @@ Forensic voice comparison within the new paradigm for the evaluation of evidence
 Forensic voice comparison in the new paradigm for the evaluation of evidence. Phonetics group meeting, Department of linguistics, Macquarie University, 11 May 2015.
 
 
+### Theses
+
+Enzinger, E. (2015). Implementation of forensic voice comparison within the new paradigm for the evaluation of forensic evidence. PhD thesis, School of Electrical Engineering & Telcommunications, University of New South Wales, Sydney, Australia. [pdf](http://handle.unsw.edu.au/1959.4/55772)
+
+Enzinger, E. (2009). Formant trajectories in forensic speaker recognition. Mag.phil. thesis, Faculty of Philological and Cultural Studies, University of Vienna, Vienna, Austria. [pdf](http://othes.univie.ac.at/8239/)
+
+
 ### Data & Software
 
 Morrison, G. S., Zhang, C., Enzinger, E., Ochoa, F., Bleach, D., Johnson, M., Folkes, B. K., De Souza, S., Cummins, N., & Chow, D. (2015). Forensic database of voice recordings of 500+ Australian English speakers. [link](http://databases.forensic-voice-comparison.net/)
 
-Enzinger, E. (2015). Database selection software for forensic voice comparison (release 2015-05-25). [link](https://entn.at/dbselect/)
+Enzinger, E. (2015). Database selection software for forensic voice comparison (release 2015-05-25).
 
 
 ### Copyright notice
