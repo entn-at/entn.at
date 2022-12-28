@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>The Austrian Language Project - entn.at</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="/theme/images/logo.png" rel="icon">
+
+<link rel="canonical" href="/blog/the-austrian-language-project/">
+
+        <meta name="author" content="Ewald Enzinger" />
+        <meta name="keywords" content="speech recognition,Austrian German" />
+        <meta name="description" content="The Austrian Language Project (T-ALP) aims to improve automatic speech recognition of Austrian German. Specifically, it focuses on Austrian German as it is typically spoken in the media such as TV and radio as well as podcasts but, at least at present, does not try to cover the wide dialectal and sociolectal variety of German spoken in Austria. The project was presented at the conference Building a European Cultural Backbone (ECB2022) at the Stadtwerkstadt in Linz, Austria. I initially became involved in this project when I met Alexander Baratsits, one of the founders of the Cultural Broadcasting Archive (CBA). The …" />
+
+        <meta property="og:site_name" content="entn.at" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="The Austrian Language Project"/>
+        <meta property="og:url" content="/blog/the-austrian-language-project/"/>
+        <meta property="og:description" content="The Austrian Language Project (T-ALP) aims to improve automatic speech recognition of Austrian German. Specifically, it focuses on Austrian German as it is typically spoken in the media such as TV and radio as well as podcasts but, at least at present, does not try to cover the wide dialectal and sociolectal variety of German spoken in Austria. The project was presented at the conference Building a European Cultural Backbone (ECB2022) at the Stadtwerkstadt in Linz, Austria. I initially became involved in this project when I met Alexander Baratsits, one of the founders of the Cultural Broadcasting Archive (CBA). The …"/>
+        <meta property="article:published_time" content="2022-12-28" />
+            <meta property="article:section" content="Blog" />
+            <meta property="article:tag" content="speech recognition" />
+            <meta property="article:tag" content="Austrian German" />
+            <meta property="article:author" content="Ewald Enzinger" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.cosmo.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/monokai.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="/theme/images/logo.png" width="32"/> entn.at            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/about.html">
+                             About
+                          </a></li>
+                         <li><a href="/research.html">
+                             Research
+                          </a></li>
+                        <li class="active">
+                            <a href="/category/blog.html">Blog</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/blog/the-austrian-language-project/"
+                       rel="bookmark"
+                       title="Permalink to The Austrian Language Project">
+                        The Austrian Language Project
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2022-12-28T11:28:00-08:00"> Wed 28 December 2022</time>
+    </span>
+
+
+
+        <span class="label label-default">Category</span>
+        <a href="/category/blog.html">Blog</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tags/speech-recognition.html">speech recognition</a>
+        /
+	<a href="/tags/austrian-german.html">Austrian German</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>The Austrian Language Project (T-ALP) aims to improve automatic speech recognition of Austrian German. Specifically, it focuses on Austrian German as it is typically spoken in the media such as TV and radio as well as podcasts but, at least at present, does not try to cover the wide dialectal and sociolectal variety of German spoken in Austria. The project was presented at the conference <a href="https://cba.fro.at/building-a-european-cultural-backbone">Building a European Cultural Backbone (ECB2022)</a> at the Stadtwerkstadt in Linz, Austria.</p>
+<p>I initially became involved in this project when I met Alexander Baratsits, one of the founders of the <a href="https://cba.media/">Cultural Broadcasting Archive (CBA)</a>. The CBA aims to promote freedom of expression, media diversity and digital communication by providing free access to a large continuously growing archive of podcasts hosted via independently operated technical infrastructure. There are currently over 140,000 audio contributions in around 50 languages available on the platform, but a large amount of it is spoken in German as it is spoken in Austria.</p>
+<p>Adding automatic speech recognition to the platform would enable discovery and recommendation capabilities to users. In addition, recent legislation aimed at improving accessibility requires broadcasters to provide subtitles. Most open-source speech recognition models (and to a large extent commercial ones as well) have difficulty transcribing Austrian German speech, as most models are developed using data from German speakers from Germany who typically use varieties of German which differ from those spoken in Austria on many linguistic levels and in terms of lexicon. In particular, named entities relevant to media discourse in Austria are typically not included in the speech recognition models' vocabularies and are therefore often substituted for other words.<sup id=sf-the-austrian-language-project-1-back><a href=#sf-the-austrian-language-project-1 class=simple-footnote title="Low-frequency terms are a general problem in automatic speech recognition, not limited to Austrian German, but the issue is exacerbated due to the mismatch in training data and the data the model is being applied on.">1</a></sup></p>
+<p>T-ALP's aim is therefore to collect a substantial amount of training data on the order of 1000 hours of transcribed speech to provide improved automatic speech recognition for Austrian German. Two main data sources were identified:</p>
+<ol>
+<li>Broadcast film and radio footage with subtitles</li>
+<li>Recordings of sessions of the Austrian Parliament with stenographic (shorthand) transcriptions</li>
+</ol>
+<p>Using footage from broadcast TV and radio and their subtitles for model training has the advantage that the conditions more closely match those of the kind of media the CBA is trying to apply the resulting models on; however, since the footage and subtitles are owned by different legal entities with differing priorities and incentives, it is not straightforward to use them for training a model.<sup id=sf-the-austrian-language-project-2-back><a href=#sf-the-austrian-language-project-2 class=simple-footnote title="The Austrian Broadcasting Corporation ORF, the Austrian national public broadcaster, has a lot of raw material from its productions going back many decades, but due to its organizational structure, it does not necessarily own the subtitles produced for its programs.">2</a></sup></p>
+<p>Sessions of the two chambers of the <a href="https://www.parlament.gv.at/">Austrian Parliament</a>, Nationalrat and Bundesrat, are recorded and available to the public via the online <a href="https://www.parlament.gv.at/MEDIA/">MediaThek</a> for sessions held from mid 2019 onwards. According to the <a href="https://www.parlament.gv.at/DISC/index.shtml#Nutzungsbedingungen_Videos">terms</a>, the directorate of the parliament owns the rights to these materials and grants their use for non-commercial purposes.</p>
+<p>In an initial phase during the development of <a href="https://github.com/openaudiosearch/openaudiosearch">OpenAudioSearch</a>, an open source full-text search engine with automatic speech recognition for podcasts, I developed resources to perform the following steps:</p>
+<ol>
+<li>Obtaining raw data from sessions of the Austrian Parliament.</li>
+<li>"Chunking", i.e., segmenting the often many hour long sessions and aligning them with the stenographic transcripts using the tools provided as part of the <a href="https://github.com/kaldi-asr/kaldi">Kaldi toolkit</a>.</li>
+<li>Training an automatic speech recognition model using <a href="https://github.com/kaldi-asr/kaldi">Kaldi</a>.</li>
+<li>Evaluate the accuracy of trained models on data.</li>
+</ol>
+<p>These are available on <a href="https://github.com/openaudiosearch/speech-recognition">Github</a> under an open-source license.</p>
+<hr><ol class=simple-footnotes><li id=sf-the-austrian-language-project-1>Low-frequency terms are a general problem in automatic speech recognition, not limited to Austrian German, but the issue is exacerbated due to the mismatch in training data and the data the model is being applied on. <a href=#sf-the-austrian-language-project-1-back class=simple-footnote-back>↩</a></li><li id=sf-the-austrian-language-project-2>The Austrian Broadcasting Corporation <em>ORF</em>, the Austrian national public broadcaster, has a lot of raw material from its productions going back many decades, but due to its organizational structure, it does not necessarily own the subtitles produced for its programs. <a href=#sf-the-austrian-language-project-2-back class=simple-footnote-back>↩</a></li></ol>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><!--<h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>-->
+              <ul class="list-inline" id="social">
+                <li class="list-group-item"><a href="https://github.com/entn-at"><i class="fa fa-github-square fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://linkedin.com/in/ewald-enzinger"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://twitter.com/entn_at"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+                <li class="list-group-item"><a href="https://sigmoid.social/@entn_at" rel="me"><i class="fa"><svg class='mastodon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg></i></a></li>
+              </ul>
+            </li>
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="/blog/the-austrian-language-project/">
+                            The Austrian Language Project
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/blog/kaldi-recipe-for-mozillas-common-voice-corpus/">
+                            Kaldi recipe for Mozilla's Common Voice corpus
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/blog/interspeech-2016-special-event-speaker-comparison-for-forensic-and-investigative-applications-ii/">
+                            Interspeech 2016 special event "Speaker Comparison for Forensic and Investigative Applications II"
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/blog/multi-laboratory-evaluation-of-forensic-voice-comparison-systems/">
+                            Multi-laboratory evaluation of forensic voice comparison systems
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://forensic-evaluation.net/" target="_blank">
+                Forensic evaluation
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2022 Ewald Enzinger
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+    <script src="/theme/js/bodypadding.js"></script>
+
+</body>
+</html>
