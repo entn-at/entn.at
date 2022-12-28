@@ -72,6 +72,10 @@ DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 SHOW_ARTICLE_CATEGORY = True
 TAG_CLOUD_MAX_ITEMS = 8
 
+############################ Plugins ######################################
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['simple_footnotes']
+
 PYGMENTS_STYLE = 'monokai'
 
 # Uncomment following line if you want document-relative URLs when developing
